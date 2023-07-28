@@ -9,5 +9,11 @@ public class Tester {
         badgeAlex.showBadgeDetails();
 
         badgeMario.showBadgeDetails();
+
+        Manager lorenzo = new Manager("Lorenzo", "Catania" , "via misasi 8");
+
+        Badge badgeLorenzo = new Badge(lorenzo);
+
+        badgeLorenzo.showBadgeDetails();
     }
 }
